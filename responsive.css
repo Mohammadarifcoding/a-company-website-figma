@@ -1,11 +1,11 @@
 /* Mobile design */
 
 @media screen and (max-width:576px) {
-    body{
-        font-size: 8px;
-    }
+  :root {
+    --base-font-size: 13px;
+  }
     header{
-        height:850px;
+        height: 100%;
         margin-bottom: 100px;
     }
   nav{
@@ -20,16 +20,41 @@
     flex-direction:column;
 
   }
-
+  .vision{
+    flex-direction: column;
+  
+    margin: 0 auto;
+    top: 30px;
+    
+  }
+  .vision-item{
+    width: 100%;
+    margin-bottom: 20px;
+  }
 }
 
 /* Tab design */
 
 @media screen and (min-width:577px) and (max-width:900px) {
-    body{
-        font-size: 14px;
-    }
+  :root {
+    --base-font-size: 15px;
+  }
     header{
-    height: 600px;
+    height: 100%;
+    }
+    .vision{
+      flex-direction: column;
+      bottom: -30px;
+      margin: 0 auto;
+      
+    }
+    .vision-item{
+      width: 100%;
+      margin-bottom: 20px;
+    }
+}
+@media screen and (min-width:901px) and (max-width:1000px){
+    header{
+        height: 600px;
     }
 }
