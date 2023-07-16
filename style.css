@@ -1,25 +1,98 @@
 /* Common design */
-*{
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
-    font-family: 'Montserrat', sans-serif;
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
 }
-body{
-    font-size: 16px;
+body {
+  font-size: 16px;
 }
-.title{
-    color: var(--text-color, #252B42);
-font-size: 2.3rem;
-font-weight: 700;
-line-height: 40px;
-letter-spacing: 0.2px;
+.title {
+  color: var(--text-color, #252b42);
+  font-size: 2.3rem;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: 0.2px;
 }
-.description{
-    color:  #737373;
-text-align: center;
-font-size:0.8rem;
+.description {
+  color: #737373;
+  font-size: 0.8rem;
+  font-weight: 500;
+  line-height: 20px; /* 142.857% */
+  letter-spacing: 0.2px;
+}
+.orange{
+    background-color:  #FFA62B; ;
+}
+.not-full-display{
+    width: 75vw;
+    margin: 0 auto;
+}
+
+/* header started */
+header {
+  padding-top: 20px;
+  padding-bottom: 50px;
+  background: url(imgae/cover.png), lightgray 50% / cover no-repeat;
+  height: 100vh;
+}
+.nav-logo {
+  color: #252b42;
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 22px; /* 133.333% */
+  letter-spacing: 0.1px;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+
+}
+.nav-bar {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  gap: 21px;
+  color: black;
+  font-weight: 700;
+}
+.banner{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 2.18rem;
+}
+.banner-title {
+  color: #252b42;
+  font-size: 3.5rem;
+  font-weight: 800;
+  line-height: 70px; /* 137.931% */
+  letter-spacing: 0.2px;
+}
+.banner-description{
+    color: #737373;
+font-size:1.2rem;
 font-weight: 500;
-line-height: 20px; /* 142.857% */
+line-height: 25px; 
 letter-spacing: 0.2px;
 }
+.banner-btn{
+    display: flex;
+    gap: 20px;
+}
+.banner-btn .btn-1 , .banner-btn .btn-2{
+padding: 10px 36px;
+color:  #FFF;
+font-family: Montserrat;
+font-size:0.8rem;
+font-weight: 700;
+line-height: 28px; /* 200% */
+letter-spacing: 0.2px;
+border-radius: 37px;
+}
+.banner-btn .btn-2{
+border: 2px solid #00A0C1;
+color: #00A0C1;
+}
+/* header finished */

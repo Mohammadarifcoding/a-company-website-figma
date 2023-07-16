@@ -1,11 +1,35 @@
 /* Mobile design */
 
 @media screen and (max-width:576px) {
-    
+    body{
+        font-size: 8px;
+    }
+    header{
+        height:850px;
+        margin-bottom: 100px;
+    }
+  nav{
+    flex-direction: column;
+    text-align: center;
+    gap: 30px;
+  }
+  .nav-bar{
+    flex-direction: column;
+  }
+  .banner-btn{
+    flex-direction:column;
+
+  }
+
 }
 
 /* Tab design */
 
 @media screen and (min-width:577px) and (max-width:900px) {
-    
+    body{
+        font-size: 14px;
+    }
+    header{
+    height: 600px;
+    }
 }
