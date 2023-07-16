@@ -4,6 +4,7 @@
   :root {
     --base-font-size: 13px;
   }
+
     header{
         height: 100%;
         margin-bottom: 100px;
@@ -31,6 +32,22 @@
     width: 100%;
     margin-bottom: 20px;
   }
+  .facts-container,.advice-container{
+   flex-direction: column;
+   margin: 0 auto;
+   gap: 30px;
+  }
+  
+  .not-full-display{
+    width: 90vw;
+    margin: 10px auto 10px auto;
+}
+.header-section{
+  padding-bottom: 10px;
+ }
+ .advice-section{
+  margin-top: 100px;
+ }
 }
 
 /* Tab design */
@@ -39,6 +56,10 @@
   :root {
     --base-font-size: 15px;
   }
+  .not-full-display{
+    width: 87vw;
+    margin: 10px auto 10px auto;
+}
     header{
     height: 100%;
     }
@@ -52,9 +73,30 @@
       width: 100%;
       margin-bottom: 20px;
     }
+    .facts-container,.advice-container{
+      flex-direction: column;
+      margin: 0 auto;
+      gap: 30px;
+     }
+     .header-section{
+      padding-bottom: 40px;
+     }
 }
 @media screen and (min-width:901px) and (max-width:1000px){
     header{
         height: 600px;
     }
+    .not-full-display{
+      width: 80vw;
+      margin: 100px auto 100px auto;
+  }
+    .facts-container,.advice-container{
+      
+      margin: 0 auto;
+      gap: 10px;
+     }
+     .header-section{
+      padding-bottom: 10px;
+     }
+   
 }

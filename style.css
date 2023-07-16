@@ -15,6 +15,14 @@
   line-height: 40px;
   letter-spacing: 0.2px;
 }
+.low-title{
+  color: #252B42;
+font-size:calc(var(--base-font-size) * 1) ;
+font-weight: 700;
+line-height: 24px; /* 150% */
+letter-spacing: 0.1px;
+margin-bottom: 10px;
+}
 .description {
   color: #737373;
   font-size: calc(var(--base-font-size) * 0.875);
@@ -27,16 +35,23 @@
 }
 .not-full-display{
     width: 75vw;
-    margin: 0 auto;
+    margin:0px auto;
 }
 
+main{
+  background: #fff;
+}
 /* header started */
+.header-section{
+  padding-bottom: 300px;
+}
 header {
   padding-top: 20px;
   padding-bottom: 50px;
   background: url(imgae/cover.png), lightgray 50% / cover no-repeat;
   background-repeat: no-repeat;
   height: 100vh;
+  
 }
 .nav-logo {
   color: #252b42;
@@ -131,13 +146,79 @@ color: #00A0C1;
   color: white;
 }
 
-/* .vision-title{
-  color: #252B42;
-  font-size: 24px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 32px;
-  
- */
+
 /* vision finished */
+
+/* facts section started */
+
+.facts-section{
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.facts-container{
+
+  display: flex;
+  justify-content: space-between;
+  margin: 70px auto;
+  align-items: center;
+  gap: 20px;
+
+}
+.facts-card{
+  display: flex;
+  width: 230px;
+  padding: 30px 40px;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  height: 209px;
+  border: 2px solid #fff;
+  box-shadow: 0px 13px 19px 0px rgba(0, 0, 0, 0.15);
+
+}
+.facts-card img{
+  width:40px;
+
+}
+
+
+
+/* facts section finished */
+
+/*Advice section started */
+.advice-section{
+  text-align: center;
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.advice-container{
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 100px;
+  
+}
+.advice-card{
+  width: 230px;
+  text-align: start;
+  border: 2px solid #fff;
+  box-shadow: 0px 13px 19px 0px rgba(0, 0, 0, 0.15);
+  padding: 5px;
+}
+.card-text{
+  padding: 30px;
+}
+.advice-card img{
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+}
+
+/*Advice section finished */
+
 /* calc(var(--base-font-size) * 1.2) */
