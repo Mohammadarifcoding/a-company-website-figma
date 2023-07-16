@@ -1,0 +1,25 @@
+/* Common design */
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+body{
+    font-size: 16px;
+}
+.title{
+    color: var(--text-color, #252B42);
+font-size: 2.3rem;
+font-weight: 700;
+line-height: 40px;
+letter-spacing: 0.2px;
+}
+.description{
+    color:  #737373;
+text-align: center;
+font-size:0.8rem;
+font-weight: 500;
+line-height: 20px; /* 142.857% */
+letter-spacing: 0.2px;
+}
